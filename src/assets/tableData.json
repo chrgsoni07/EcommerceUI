@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "data": {
+                "name": "Root param tree 1",
+                "description": "Root Parameter",
+                "is_root" : true,
+                "id" : 1
+            },
+            "children": [
+                {
+                    "data": {
+                        "name": "Parameter 1",
+                        "description": "first child parameter",
+                        "is_root" : false,
+                        "id": 2
+                    },
+                    "children": [
+                        {
+                            "data": {
+                                "name": "Parameter 2",
+                                "description": "second child parameter",
+                                "is_root" : false,
+                                "id":3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": {
+                "name": "Root param tree 2",
+                "description": "Root Parameter for second tree",
+                "is_root" : true,
+                "id":4
+               
+            },
+            "children": [
+                {
+                    "data": {
+                        "name": "Parameter 2.1",
+                        "description": "second child parameter",
+                        "is_root" : false,
+                        "id":5
+                    }
+                }
+            ]
+        }
+    ]
+}
